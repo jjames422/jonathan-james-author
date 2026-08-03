@@ -25,12 +25,16 @@ const interfaceFont = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jonathanmjames.com"),
+
   title: {
     default: "Jonathan M. James | Dark Historical Fantasy",
     template: "%s | Jonathan M. James",
   },
+
   description:
     "The official website of Jonathan M. James, author of immersive dark historical fantasy exploring immortality, faith, power, and the monsters history misunderstood.",
+
   keywords: [
     "Jonathan M. James",
     "dark historical fantasy",
@@ -39,20 +43,30 @@ export const metadata: Metadata = {
     "Aurelius Drăculești",
     "The Aurelius Saga",
   ],
+
   authors: [
     {
       name: "Jonathan M. James",
+      url: "https://jonathanmjames.com",
     },
   ],
+
   creator: "Jonathan M. James",
+
+  alternates: {
+    canonical: "/",
+  },
+
   openGraph: {
     type: "website",
     locale: "en_US",
+    url: "/",
     siteName: "Jonathan M. James",
     title: "Jonathan M. James | Dark Historical Fantasy",
     description:
       "Immersive dark historical fantasy about immortality, faith, power, and the monsters history misunderstood.",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Jonathan M. James | Dark Historical Fantasy",
