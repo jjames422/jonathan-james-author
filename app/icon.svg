@@ -1,0 +1,59 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  role="img"
+  aria-label="Jonathan M. James"
+>
+  <defs>
+    <radialGradient id="background" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#2a0e12" />
+      <stop offset="100%" stop-color="#0b090a" />
+    </radialGradient>
+
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e1c789" />
+      <stop offset="50%" stop-color="#b49356" />
+      <stop offset="100%" stop-color="#816535" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="8" fill="url(#background)" />
+
+  <rect
+    x="4"
+    y="4"
+    width="56"
+    height="56"
+    rx="6"
+    fill="none"
+    stroke="#b49356"
+    stroke-width="1.5"
+  />
+
+  <rect
+    x="8"
+    y="8"
+    width="48"
+    height="48"
+    rx="4"
+    fill="none"
+    stroke="#b49356"
+    stroke-opacity="0.3"
+  />
+
+  <path
+    d="M19 14H48V21H41V39
+       C41 49 35 54 26 54
+       C18 54 13 50 11 43
+       L18 39
+       C19.5 44 22 47 27 47
+       C32 47 34 44 34 38
+       V21H19Z"
+    fill="url(#gold)"
+  />
+
+  <path
+    d="M32 3L35 7L32 11L29 7Z"
+    fill="#b49356"
+  />
+</svg>
